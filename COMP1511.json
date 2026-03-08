@@ -1,0 +1,8 @@
+{
+    "course_code": "COMP1511",
+    "course_title": "Programming Fundamentals",
+    "course_aims": "<p>The importance of this course lies in its role as the foundation of your programming journey, providing essential knowledge and skills vital for your success in the field. By focusing on proficiency in the high-level programming language C and fostering problem-solving abilities, this course equips you with the fundamental tools and mindset necessary to think like a programmer.</p>\n<p>As the first course in the program, it plays a crucial role in setting the stage for your future learning. It serves as a prerequisite for many of the core courses, ensuring that all students begin with a solid understanding of the fundamental concepts required to progress further. By establishing a common knowledge base and skills, this course ensures that everyone starts on an equal footing and can effectively tackle more advanced topics.</p>\n<p>This course intends to guide you through the initial stages of your programming education, imparting technical proficiency in C and the ability to approach problems systematically and think critically. By emphasizing problem-solving strategies, debugging techniques, and testing methodologies, the course aims to instill in you a resilient and adaptable mindset that will serve as a solid foundation for your future development as a programmer.</p>",
+    "attendance_requirements": "Students are strongly encouraged to attend all classes and review lecture recordings.",
+    "campus": "Sydney",
+    "career": "Undergraduate"
+}

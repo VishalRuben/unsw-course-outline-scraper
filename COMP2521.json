@@ -1,0 +1,8 @@
+{
+    "course_code": "COMP2521",
+    "course_title": "Data Structures and Algorithms",
+    "course_aims": "<p>During this course, we'll be looking at ways of creating, analysing and understanding software. Ultimately, you should be able to answer the question, \"i<strong>s this piece of software any good?</strong>\" and be able to provide sound reasons to justify your answer.</p>\n<p>This course follows on from introductory C programming courses: COMP1511, COMP1917, or COMP1921. We cover additional aspects of the C programming language that were not covered in those courses, and also look at some programming tools which were not covered (in detail) earlier. However, this course is not simply a second C programming course: the focus is on the ideas and abstractions behind the data structures and algorithms that are used.</p>\n<p>COMP2521 is a critical course in the study of computing at UNSW, since it deals with many concepts that are central to future studies in the area. Whether you are studying Computer Science, Software Engineering, Bioinformatics, Computer Engineering, or even a discipline outside the realm of computing, understanding a range of algorithms and data structures and how to use them will make you a much more effective computing problem solver in the future.</p>",
+    "attendance_requirements": "Students are strongly encouraged to attend all classes and review lecture recordings.",
+    "campus": "Sydney",
+    "career": "Undergraduate"
+}
