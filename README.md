@@ -78,4 +78,3 @@ FUTURE IMPROVEMENTS
 
 Add error handling for invalid course codes
 Add support for checking multiple terms
-Add parsing for assessment requirements
