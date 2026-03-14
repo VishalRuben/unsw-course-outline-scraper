@@ -4,5 +4,63 @@
     "course_aims": "<p>The importance of this course lies in its role as the foundation of your programming journey, providing essential knowledge and skills vital for your success in the field. By focusing on proficiency in the high-level programming language C and fostering problem-solving abilities, this course equips you with the fundamental tools and mindset necessary to think like a programmer.</p>\n<p>As the first course in the program, it plays a crucial role in setting the stage for your future learning. It serves as a prerequisite for many of the core courses, ensuring that all students begin with a solid understanding of the fundamental concepts required to progress further. By establishing a common knowledge base and skills, this course ensures that everyone starts on an equal footing and can effectively tackle more advanced topics.</p>\n<p>This course intends to guide you through the initial stages of your programming education, imparting technical proficiency in C and the ability to approach problems systematically and think critically. By emphasizing problem-solving strategies, debugging techniques, and testing methodologies, the course aims to instill in you a resilient and adaptable mindset that will serve as a solid foundation for your future development as a programmer.</p>",
     "attendance_requirements": "Students are strongly encouraged to attend all classes and review lecture recordings.",
     "campus": "Sydney",
-    "career": "Undergraduate"
+    "career": "Undergraduate",
+    "assessments": [
+        {
+            "assessment_name": "Final Exam",
+            "assessment_type": "Individual",
+            "weighting": "40%",
+            "due_date": "UNSW Exams T1 period",
+            "description": "<p>3-hour-long in-person exam taking place in exam period.</p>\n<p>The exam will contain implementation tasks that will require you to write C programs. It will also contain sections that require you to read code or answer questions to show your knowledge of programming.</p>\n<p>During this exam, you will be able to execute, debug and test your answers. The implementation tasks will be similar to those encountered in your weekly Problem Sets.</p>\n<p>We will provide you with sample questions in the last week of the course.</p>\n<p><strong>Special Exam Requirements<br /></strong>There are two requirements for the final exam.</p>\n<p><em>Requirement#1:\u00a0</em>on the final exam you must solve a task by writing a program that uses an array. There will be multiple, clearly marked, questions that will involve the use of an array. You must pass one of these questions (by receiving at least 50% of the available marks) to meet this requirement.</p>\n<p><em>Requirement#2:\u00a0</em>on the final exam you must solve a task by writing a program that uses a linked list. There will be multiple, clearly marked, questions that will involve using a linked list. You must pass one of these questions (by receiving at least 50% of the available marks) to meet this requirement.</p>\n<p>You cannot pass COMP1511 unless you achieve both the above requirements.</p>",
+            "hurdles": "<p><i>Requirement#1:&nbsp;</i>on the final exam you must solve a task by writing a program that uses an array. There will be multiple, clearly marked, questions that will involve the use of an array. You must pass one of these questions (by receiving at least 50% of the available marks) to meet this requirement.</p>\n\n<p><i>Requirement#2:&nbsp;</i>on the final exam you must solve a task by writing a program that uses a linked list. There will be multiple, clearly marked, questions that will involve using a linked list. You must pass one of these questions (by receiving at least 50% of the available marks) to meet this requirement.</p>\n",
+            "learning_outcomes": [
+                "CLO1 : Apply C programming language to solve simple decision, looping, array, and linked list problems programmatically.",
+                "CLO2 : Review the produced code against specification criteria by applying testing techniques.",
+                "CLO3 : Apply basic data structures, such as arrays and linked lists, to solve complex problems.",
+                "CLO4 : Read and understand coding solutions."
+            ]
+        },
+        {
+            "assessment_name": "Assignment 2",
+            "assessment_type": "Individual",
+            "weighting": "25%",
+            "due_date": "Week 10: 20 April - 26 April",
+            "description": "<p>There are two assessable programming assignments. Assignments allow you to practice what you have learned on relatively large problems (compared to the small exercises in the labs). Assignments are a very important part of this course, therefore it is essential that you attempt them yourself. Collaboration with other students is limited to discussion of fundamentals, not any discussion of assignment specifics.\u00a0</p>\n<ul><li>Assignment 2, 25%\u00a0</li></ul>\n<p>Assignment 2 is a relatively large problem, focusing on linked lists.\u00a0</p>\n<p>Assignments will be automarked, and feedback on programming style will be given by tutors.</p>\n<p>\u00a0</p>",
+            "hurdles": null,
+            "learning_outcomes": [
+                "CLO1 : Apply C programming language to solve simple decision, looping, array, and linked list problems programmatically.",
+                "CLO2 : Review the produced code against specification criteria by applying testing techniques.",
+                "CLO3 : Apply basic data structures, such as arrays and linked lists, to solve complex problems.",
+                "CLO4 : Read and understand coding solutions."
+            ]
+        },
+        {
+            "assessment_name": "Assignment 1",
+            "assessment_type": "Individual",
+            "weighting": "20%",
+            "due_date": "Week 7: 30 March - 05 April",
+            "description": "<p>There are two assessable programming assignments. Assignments allow you to practice what you have learned on relatively large problems (compared to the small exercises in the labs). Assignments are a very important part of this course, therefore it is essential that you attempt them yourself. Collaboration with other students is limited to discussion of fundamentals, not any discussion of assignment specifics.\u00a0</p>\n<ul><li>Assignment 1, 20%\u00a0</li></ul>\n<p>Assignment 1 is focused on the topic of arrays.</p>\n<p>Assignments will be automarked, and feedback on programming style will be given by tutors.</p>",
+            "hurdles": null,
+            "learning_outcomes": [
+                "CLO1 : Apply C programming language to solve simple decision, looping, array, and linked list problems programmatically.",
+                "CLO2 : Review the produced code against specification criteria by applying testing techniques.",
+                "CLO3 : Apply basic data structures, such as arrays and linked lists, to solve complex problems.",
+                "CLO4 : Read and understand coding solutions."
+            ]
+        },
+        {
+            "assessment_name": "Problem Sets",
+            "assessment_type": "Individual",
+            "weighting": "15%",
+            "due_date": "Due weekly",
+            "description": "<p>Each problem set will be submitted using the \"give\" system. All students will need to submit solutions to the Problem Sets each week (weeks 1-10, with nothing due in Week 6 due to Flex Week).</p>\n<p>Problem sets will be marked automatically one week after the due date. When marking is complete you can see marks online using the course website.</p>\n<p>Problem Sets have an indicator to help you choose which problems to do -- you should prioritise the one-dot exercises first, then two-dot, then three. You must complete all one-dot and two-dot exercises to get full marks in the problem set for the Week. Any three-dot exercises you complete will form extra bonus marks to compensate for any other missing marks in the problem set component.</p>\n<p>There are no marks for Problem Set 1, it's there to help you get started. You will see a 0 as a total for Problem Set 1, as it is not counted towards your final mark.</p>\n<p>Problem sets are capped at 15\u00a0<strong><em>marks\u00a0</em></strong>(there are 4 possible bonus marks from the three-dot exercises that can bring you up to a total of 15 if you missed out on any other marks in the one- or two-dot exercises).\u00a0<em><strong>Completing just the one- and two-dot exercises every week\u00a0</strong></em>can give you the full 15 marks needed in this component.</p>\n<p>Each week, <strong>students must complete a specific check-off exercise during their scheduled lab session</strong>; this task must be verified by a tutor in person for the remaining take-home exercises to contribute toward the weekly laboratory mark. While these exercises are not conducted under exam conditions and lab assistants will be available to provide guidance, they are a mandatory requirement designed to ensure you are consistently engaging with the core concepts in preparation for the final exam.</p>",
+            "hurdles": null,
+            "learning_outcomes": [
+                "CLO1 : Apply C programming language to solve simple decision, looping, array, and linked list problems programmatically.",
+                "CLO2 : Review the produced code against specification criteria by applying testing techniques.",
+                "CLO3 : Apply basic data structures, such as arrays and linked lists, to solve complex problems.",
+                "CLO4 : Read and understand coding solutions."
+            ]
+        }
+    ]
 }

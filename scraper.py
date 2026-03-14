@@ -29,6 +29,24 @@ def scrape_course_outline(
 
     response = requests.get(base_url, params=params)
     data = response.json()
+    if not data:
+        print("Course not found for given term/year.")
+        sys.exit(1)
+
+    assessments_json = data.get("integrat_CO_Assessment", [])
+    assessments = []
+    for assessment in assessments_json:
+        assessments.append(
+            {
+                "assessment_name": assessment.get("integrat_title", ""),
+                "assessment_type": assessment.get("integrat_groupindividual", ""),
+                "weighting": assessment.get("integrat_weight", ""),
+                "due_date": assessment.get("integrat_duedate", ""),
+                "description": html.unescape(assessment.get("integrat_summary", "")),
+                "hurdles": assessment.get("integrat_hurdlerules", ""),
+                "learning_outcomes": assessment.get("integrat_assmtclos", []),
+            }
+        )
 
     result = {
         "course_code": data.get("integrat_coursecode"),
@@ -37,6 +55,7 @@ def scrape_course_outline(
         "attendance_requirements": data.get("integrat_attendancereq"),
         "campus": data.get("integrat_campus"),
         "career": data.get("integrat_career"),
+        "assessments": assessments,
     }
 
     return result
