@@ -12,8 +12,9 @@ FEATURES
   - attendance requirements
   - campus
   - career
+  - assessments
 - supports command line usage
-- automaticaly saves results to <COURSE_CODE>.json
+- automaticaly saves results to <COURSE_CODE_TERM_YEAR>.json
 - Minimal dependencies (requests only)
 
 INSTALLATION
@@ -31,39 +32,39 @@ pip install -r requirements.txt
 
 USAGE
 
-Run the scraper with a course code:
-python scraper.py COMP1511
+Run the scraper by typing:
 
-If no course code is provided, it defaults to COMP1511.
+python scraper.py
+
+into the terminal. There is also support for typing the course, term and year as command line arguments. For example:
+
+python scraper.py COMP1511 Term 1 2024
+
+However if no command line arguments are provided, the script will prompt inputs.
 
 This will:
 
 - print the course data to the terminal
-- save it to COMP1511.json in the project folder
+- save it to COMP1511_Term 1_2024.json in the project folder
+
+If no course/term/year is provided, it will print an error.
 
 HOW IT WORKS
-The script sends a GET request to the official UNSW Course Outlines API:
+The script sends GET requests to the official UNSW Course Outlines API:
+https://courseoutlines.unsw.edu.au/v1/publicsitecourseoutlines/search
 https://courseoutlines.unsw.edu.au/v1/publicsitecourseoutlines/detail
 
-It passes parameters such as:
+It passes the provided parameters:
 
 - course code
 - year
 - term
-- delivery mode
-- campus
 
 The API returns structured JSON, which the script extracts and formats.
 
 EXAMPLE OUTPUT
-{
-"course_code": "COMP1511",
-"course_title": "Programming Fundamentals",
-"course_aims": "The importance of this course lies in its role...",
-"attendance_requirements": "Students are strongly encouraged to attend all classes...",
-"campus": "Sydney",
-"career": "Undergraduate"
-}
+
+Check in the COMP1511_Term 1_2024.json file.
 
 REQUIREMENTS
 
